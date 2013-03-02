@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEE9404A16E037FF00286327 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE9404916E037FF00286327 /* UIKit.framework */; };
+		FEE9404C16E037FF00286327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE9404B16E037FF00286327 /* Foundation.framework */; };
+		FEE9404E16E037FF00286327 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE9404D16E037FF00286327 /* CoreGraphics.framework */; };
+		FEE9405416E037FF00286327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEE9405216E037FF00286327 /* InfoPlist.strings */; };
+		FEE9405616E037FF00286327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE9405516E037FF00286327 /* main.m */; };
+		FEE9405A16E037FF00286327 /* DRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE9405916E037FF00286327 /* DRAppDelegate.m */; };
+		FEE9405C16E037FF00286327 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE9405B16E037FF00286327 /* Default.png */; };
+		FEE9405E16E037FF00286327 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE9405D16E037FF00286327 /* Default@2x.png */; };
+		FEE9406016E037FF00286327 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE9405F16E037FF00286327 /* Default-568h@2x.png */; };
+		FEE9406316E037FF00286327 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE9406116E037FF00286327 /* MainStoryboard.storyboard */; };
+		FEE9406616E037FF00286327 /* DRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE9406516E037FF00286327 /* DRViewController.m */; };
+		FEE9406F16E0381F00286327 /* DREasyGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE9406E16E0381F00286327 /* DREasyGradient.m */; };
+		FEE9407116E0387C00286327 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE9407016E0387B00286327 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FEE9404616E037FF00286327 /* DREasyGradient-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DREasyGradient-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE9404916E037FF00286327 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEE9404B16E037FF00286327 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEE9404D16E037FF00286327 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEE9405116E037FF00286327 /* DREasyGradient-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DREasyGradient-Demo-Info.plist"; sourceTree = "<group>"; };
+		FEE9405316E037FF00286327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEE9405516E037FF00286327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEE9405716E037FF00286327 /* DREasyGradient-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DREasyGradient-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		FEE9405816E037FF00286327 /* DRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
+		FEE9405916E037FF00286327 /* DRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
+		FEE9405B16E037FF00286327 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FEE9405D16E037FF00286327 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FEE9405F16E037FF00286327 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FEE9406216E037FF00286327 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FEE9406416E037FF00286327 /* DRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRViewController.h; sourceTree = "<group>"; };
+		FEE9406516E037FF00286327 /* DRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRViewController.m; sourceTree = "<group>"; };
+		FEE9406D16E0381F00286327 /* DREasyGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DREasyGradient.h; sourceTree = "<group>"; };
+		FEE9406E16E0381F00286327 /* DREasyGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DREasyGradient.m; sourceTree = "<group>"; };
+		FEE9407016E0387B00286327 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEE9404316E037FF00286327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE9407116E0387C00286327 /* QuartzCore.framework in Frameworks */,
+				FEE9404A16E037FF00286327 /* UIKit.framework in Frameworks */,
+				FEE9404C16E037FF00286327 /* Foundation.framework in Frameworks */,
+				FEE9404E16E037FF00286327 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEE9403D16E037FF00286327 = {
+			isa = PBXGroup;
+			children = (
+				FEE9406C16E0381F00286327 /* DREasyGradient */,
+				FEE9404F16E037FF00286327 /* DREasyGradient-Demo */,
+				FEE9404816E037FF00286327 /* Frameworks */,
+				FEE9404716E037FF00286327 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEE9404716E037FF00286327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE9404616E037FF00286327 /* DREasyGradient-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEE9404816E037FF00286327 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE9407016E0387B00286327 /* QuartzCore.framework */,
+				FEE9404916E037FF00286327 /* UIKit.framework */,
+				FEE9404B16E037FF00286327 /* Foundation.framework */,
+				FEE9404D16E037FF00286327 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEE9404F16E037FF00286327 /* DREasyGradient-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FEE9405816E037FF00286327 /* DRAppDelegate.h */,
+				FEE9405916E037FF00286327 /* DRAppDelegate.m */,
+				FEE9406116E037FF00286327 /* MainStoryboard.storyboard */,
+				FEE9406416E037FF00286327 /* DRViewController.h */,
+				FEE9406516E037FF00286327 /* DRViewController.m */,
+				FEE9405016E037FF00286327 /* Supporting Files */,
+			);
+			path = "DREasyGradient-Demo";
+			sourceTree = "<group>";
+		};
+		FEE9405016E037FF00286327 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEE9405116E037FF00286327 /* DREasyGradient-Demo-Info.plist */,
+				FEE9405216E037FF00286327 /* InfoPlist.strings */,
+				FEE9405516E037FF00286327 /* main.m */,
+				FEE9405716E037FF00286327 /* DREasyGradient-Demo-Prefix.pch */,
+				FEE9405B16E037FF00286327 /* Default.png */,
+				FEE9405D16E037FF00286327 /* Default@2x.png */,
+				FEE9405F16E037FF00286327 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEE9406C16E0381F00286327 /* DREasyGradient */ = {
+			isa = PBXGroup;
+			children = (
+				FEE9406D16E0381F00286327 /* DREasyGradient.h */,
+				FEE9406E16E0381F00286327 /* DREasyGradient.m */,
+			);
+			name = DREasyGradient;
+			path = ../DREasyGradient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEE9404516E037FF00286327 /* DREasyGradient-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE9406916E037FF00286327 /* Build configuration list for PBXNativeTarget "DREasyGradient-Demo" */;
+			buildPhases = (
+				FEE9404216E037FF00286327 /* Sources */,
+				FEE9404316E037FF00286327 /* Frameworks */,
+				FEE9404416E037FF00286327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DREasyGradient-Demo";
+			productName = "DREasyGradient-Demo";
+			productReference = FEE9404616E037FF00286327 /* DREasyGradient-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEE9403E16E037FF00286327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DR;
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = FEE9404116E037FF00286327 /* Build configuration list for PBXProject "DREasyGradient-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEE9403D16E037FF00286327;
+			productRefGroup = FEE9404716E037FF00286327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEE9404516E037FF00286327 /* DREasyGradient-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEE9404416E037FF00286327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE9405416E037FF00286327 /* InfoPlist.strings in Resources */,
+				FEE9405C16E037FF00286327 /* Default.png in Resources */,
+				FEE9405E16E037FF00286327 /* Default@2x.png in Resources */,
+				FEE9406016E037FF00286327 /* Default-568h@2x.png in Resources */,
+				FEE9406316E037FF00286327 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEE9404216E037FF00286327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE9405616E037FF00286327 /* main.m in Sources */,
+				FEE9405A16E037FF00286327 /* DRAppDelegate.m in Sources */,
+				FEE9406616E037FF00286327 /* DRViewController.m in Sources */,
+				FEE9406F16E0381F00286327 /* DREasyGradient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEE9405216E037FF00286327 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE9405316E037FF00286327 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEE9406116E037FF00286327 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE9406216E037FF00286327 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEE9406716E037FF00286327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEE9406816E037FF00286327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEE9406A16E037FF00286327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DREasyGradient-Demo/DREasyGradient-Demo-Prefix.pch";
+				INFOPLIST_FILE = "DREasyGradient-Demo/DREasyGradient-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEE9406B16E037FF00286327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DREasyGradient-Demo/DREasyGradient-Demo-Prefix.pch";
+				INFOPLIST_FILE = "DREasyGradient-Demo/DREasyGradient-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEE9404116E037FF00286327 /* Build configuration list for PBXProject "DREasyGradient-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE9406716E037FF00286327 /* Debug */,
+				FEE9406816E037FF00286327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE9406916E037FF00286327 /* Build configuration list for PBXNativeTarget "DREasyGradient-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE9406A16E037FF00286327 /* Debug */,
+				FEE9406B16E037FF00286327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEE9403E16E037FF00286327 /* Project object */;
+}
