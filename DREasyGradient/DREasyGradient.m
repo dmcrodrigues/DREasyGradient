@@ -37,7 +37,7 @@
 
 +(CAGradientLayer *)gradientWithFrame:(CGRect)frame orientation:(DRGradientOrientation)orientation color1:(UIColor *)color1 color2:(UIColor *)color2
 {
-    NSArray *colors = [NSArray arrayWithObjects:color1, color2.CGColor, nil];
+    NSArray *colors = [NSArray arrayWithObjects:color1, color2, nil];
     
     return [DREasyGradient gradientWithFrame:frame orientation:orientation colors:colors];
 }
