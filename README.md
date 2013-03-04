@@ -31,7 +31,7 @@ To use DREasyGradient you just need to import the folder `DREasyGradient/`. This
                             color1:(UIColor *)color1
                             color2:(UIColor *)color2;
 ```
-> You can control the gradient orientation using `DRVerticalGradient` or `DRVerticalGradient`.
+> You can control the gradient orientation using `DRVerticalGradient` or `DRHorizontalGradient`.
 
 ### Example
 ```Objective-C
